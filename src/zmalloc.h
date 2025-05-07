@@ -83,7 +83,7 @@
 #include <malloc.h>
 #endif
 
-#define HAVE_MALLOC_SIZE 1
+// #define HAVE_MALLOC_SIZE 1
 #define zmalloc_size(p) malloc_usable_size(p)
 
 #endif
